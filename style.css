@@ -3,7 +3,7 @@
 }
 header{
     background-color: #c70000;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4));
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
     height: 80px;
 }
 body{
