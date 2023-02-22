@@ -115,9 +115,9 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: black;
-/*     background-color: #c70000; */
-/*     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)); */
+/*     background-color: black; */
+    background-color: #c70000;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4));
     padding: 10px 0px 10px 25px;
 }
 .links{
