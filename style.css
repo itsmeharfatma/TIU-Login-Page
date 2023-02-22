@@ -3,8 +3,8 @@
 }
 header{
     background-color: #c70000;
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
-    height: 80px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4));
+    height: 70px;
 }
 body{
     margin: 0px;
@@ -25,7 +25,7 @@ body{
 }
 .form{
     width: 280px;
-    height: 410px;
+    height: 400px;
     background-color: #f2f2f2;
     border: none;
     border-radius: 20px;
@@ -39,8 +39,8 @@ body{
    width: 100%;
 }
 p{
-    font-size: 15px;
-    margin: 20px 0px 28px 0px;
+    font-size: 14px;
+    margin: 20px 0px 20px 0px;
 }
 label{
     font-size: 13px;
@@ -59,28 +59,30 @@ input[type="password"]{
     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 input[type="submit"]{
-    height: 30px;
+    height: 32px;
     display: block;
     width: 100%;
-    color: black;
-    background-color: darkgray;
+    color: white;
+    background-color: #c70000;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.3));
     border: none;
-    border-radius: 40px;
+    border-radius: 25px;
     padding: 0px;
-    margin-top: 32px;
+    margin-top: 28px;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
 }
 input[type="submit"]:hover{
-    background-color: gray;
+    background-color: #29387B;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
     box-shadow: none;
 }
 .link{
-    margin-top: 10px;
+    margin-top: 12px;
     text-align: right;
     text-decoration: none;
     font-size: 12px;
