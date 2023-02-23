@@ -2,9 +2,19 @@
     box-sizing: border-box;
 }
 header{
-    background-color: #c70000;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4));
+    position: sticky;
+    top: 0px;
+/*     background-color: #c70000; */
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
     height: 70px;
+}
+.header{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.header_logo{
+    display: block;
+    width: 35%;
 }
 body{
     margin: 0px;
@@ -114,7 +124,6 @@ footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-/*     background-color: black; */
     background-color: #c70000;
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4));
     padding: 10px 0px 10px 25px;
