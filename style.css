@@ -11,12 +11,12 @@ header{
     box-shadow: 0px 20px 30px rgba(0,0,0,0.1);
 }
 .header{
-    padding-top: 18px;
-    padding-left: 18px;
+    padding-top: 15px;
+    padding-left: 15px;
 }
 .header_logo{
     display: block;
-    width: 30%;
+    width: 34%;
 }
 body{
     margin: 0px;
@@ -36,7 +36,7 @@ body{
     margin-bottom: 50px;
 }
 .form{
-    width: 300px;
+    width: 320px;
     height: 420px;
     background-color: #f2f2f2;
     border: none;
@@ -44,16 +44,10 @@ body{
     padding: 20px 30px;
     box-shadow: 14px 14px 20px #cccccc, -14px -14px 20px white;
 }
-/* .logo { */
-/*    display: block; */
-/*    margin-left: auto; */
-/*    margin-right: auto; */
-/*    width: 100%; */
-/* } */
 .logo{
     width: 65px;
     height: 65px;
-    margin: 5px auto;
+    margin: 2px auto;
     border-radius: 50%;
     box-sizing: border-box;
     box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
@@ -75,17 +69,18 @@ label{
 }
 input[type="text"],
 input[type="password"]{
-    height: 30px;
+    height: 36px;
     width:100%;
-    padding: 4px 10px;
+    padding: 0px 14px;
     margin: 5px 0px;
     border: none;
+    outline: none;
     border-radius: 25px;
     background: #ecf0f3;
     box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
 }
 input[type="submit"]{
-    height: 32px;
+    height: 36px;
     display: block;
     width: 100%;
     color: white;
@@ -94,8 +89,8 @@ input[type="submit"]{
     border: none;
     border-radius: 25px;
     padding: 0px;
-    margin-top: 38px;
-    font-size: 14px;
+    margin-top: 30px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
@@ -108,7 +103,7 @@ input[type="submit"]:hover{
     box-shadow: none;
 }
 .link{
-    margin-top: 18px;
+    margin-top: 14px;
     text-align: right;
     text-decoration: none;
     font-size: 12px;
@@ -123,7 +118,7 @@ section{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4));
     color: white;
     text-align: center;
-    padding: 20px 0px 20px 0px;
+    padding: 15px 0px 15px 0px;
 }
 .TIU_icon{
     width: 60px;
@@ -146,9 +141,10 @@ footer{
 }
 .links{
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 14px;
     padding-top: 4px;
+    margin: 6px 0 0 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer p{
@@ -184,12 +180,17 @@ footer p{
     body{
         height: 100vh;
     }
+    .form{
+        width: 300px;
+    }
     .header{
-    padding-top: 18px;
-    padding-left: 18px;
+    padding-top: 15px;
+    padding-left: 0px;
     }
     .header_logo{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 95%;
     }
     .container{
@@ -217,11 +218,11 @@ footer p{
     padding: 8px 0px 10px 20px;
 }
     .links{
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: underline;
 }
     footer p{
-    font-size: 11px;
+    font-size: 9px;
     margin: 15px 0px 0px 0px;
 }
     .icon_container{
