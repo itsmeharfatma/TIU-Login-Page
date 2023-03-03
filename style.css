@@ -4,19 +4,28 @@
 header{
     position: sticky;
     top: 0px;
-/*     background-color: #c70000; */
     background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
     height: 70px;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(6px);
     box-shadow: 0px 20px 30px rgba(0,0,0,0.1);
 }
 .header{
-    padding-top: 15px;
-    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 0px 15px;
+    
 }
 .header_logo{
-    display: block;
-    width: 34%;
+    width: 350px;
+}
+.heading{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: medium;
+    margin: 0px;
 }
 body{
     margin: 0px;
@@ -177,21 +186,41 @@ footer p{
     box-shadow: 1px 1px 2px #D9D9D9, -1px -1px 2px #D9D9D9;
 }
 @media all and (max-width: 600px){
-    body{
-        height: 100vh;
+    html, body{
+        height: 100%;
     }
     .form{
         width: 300px;
     }
+    header{
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    height: 100px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 20px 30px rgba(0,0,0,0.1);
+    }
     .header{
-    padding-top: 15px;
-    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px 0px 15px;
     }
     .header_logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+    }
+    .heading{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 24px;
+    margin: 0px;
     }
     .container{
         margin-top: 60px;
